@@ -28,8 +28,21 @@ Font-family:'Dosis', san-serif;
 /*infinity display, lol */
 }
 /* ===============END OF GENERAL========= */
-/*   Navigation   */
 
+/*====================================================
+                        PARALLAX (Generic)
+======================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*   Navigation   */
+/* 
 nav{
 
     margin: 2.5%;
@@ -56,28 +69,38 @@ nav ul li{
     nav ul li a{
         font-family: 'Dosis', san-serif;
         text-decoration: none; 
-    }
+    } */
 /* End ov Navigation...destination,lol */
-
+/* Navigation Bar */
+.navbar{
+    float: right;
+}
 
 /* Home  */
 #home-content-title h2{
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     color: honeydew;
     clear: both;
+     font-size: 55px;
+     
+     margin: 20px 0 20px 0;
 }
 
 #home-content-box p{
     text-align: center;
     color: honeydew;
     clear: both;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 #home-box{
 
-clear: both;
+    width: 100%;
+    height: 100%;
+    display: table;
 
 }
 #home{
@@ -89,6 +112,15 @@ clear: both;
     background-size: cover;
     
 }
+
+#about-image{
+    background-image: url('../img/rene-bohmer-421853-unsplash.jpg');
+    float: left;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* =================END OF HOME================= */
 /* I just noticed my id's are arranged like yours but in reverse order
 ||too tired to change but will use your model from hereon  */
