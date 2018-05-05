@@ -20,27 +20,77 @@
 
 
 
-/* General */
+/*============== GENERAL=============== */
 html,body{
 height: 100%; 
+margin: 0%;
+Font-family:'Dosis', san-serif;  
+/*infinity display, lol */
+}
+/* ===============END OF GENERAL========= */
+/*   Navigation   */
+
+nav{
+
+    margin: 2.5%;
 
 }
+
+nav ul{  
+display: inline;
+position: inherit;
+
+
+}
+
+nav ul li{
+
+    list-style: none;
+    float: right;
+    position: relative;
+    display: inline;
+    padding-left: 1%;
+
+}
+
+    nav ul li a{
+        font-family: 'Dosis', san-serif;
+        text-decoration: none; 
+    }
+/* End ov Navigation...destination,lol */
+
+
 /* Home  */
-#home-content-title h3{
+#home-content-title h2{
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
     color: honeydew;
+    clear: both;
 }
 
 #home-content-box p{
     text-align: center;
     color: honeydew;
+    clear: both;
+}
+
+#home-box{
+
+clear: both;
+
 }
 #home{
     background-image: url('../img/rene-bohmer-421853-unsplash.jpg');
-    height: inherit;
+    height: 100%;
     width: 100%;
     display: table;
+    background-position: center; 
     background-size: cover;
+    
 }
+/* =================END OF HOME================= */
+/* I just noticed my id's are arranged like yours but in reverse order
+||too tired to change but will use your model from hereon  */
+
+/* ================== ABOUT ===================== */
